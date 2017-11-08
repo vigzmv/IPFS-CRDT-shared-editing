@@ -48189,7 +48189,7 @@ ipfs.once('ready', function () {
         textfield: 'Text'
       }
     }).then(function (y) {
-      y.share.textfield.bind(document.getElementById('textfield'));
+      y.share.textfield.bind(window.document.querySelector('textfield'));
     });
   });
 });

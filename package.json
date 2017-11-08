@@ -1,23 +1,20 @@
 {
   "name": "ipfs-crdt-shared-editing",
   "version": "1.0.0",
-  "description": " Decentralized Real-Time Collaborative Documents - Conflict-free editing in the browser using js-IPFS and CRDTs",
+  "description":
+    " Decentralized Real-Time Collaborative Documents - Conflict-free editing in the browser using js-IPFS and CRDTs",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -c-1 -p 1234 docs",
     "webpack": "webpack --watch",
-    "build": "webpack -p"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vigzmv/IPFS-CRDT-shared-editing.git"
   },
-  "keywords": [
-    "ipfs",
-    "crdt",
-    "realtime"
-  ],
+  "keywords": ["ipfs", "crdt", "realtime"],
   "author": "Vignesh M",
   "license": "MIT",
   "bugs": {
