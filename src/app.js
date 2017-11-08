@@ -37,6 +37,6 @@ ipfs.once('ready', () =>
         textfield: 'Text',
       },
     }).then((y) => {
-      y.share.textfield.bind(window.document.querySelector('textfield'));
+      y.share.textfield.bind(document.querySelector('#textfield'));
     });
   }));
