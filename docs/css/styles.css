@@ -1,5 +1,5 @@
 body {
-  background: #ffe0b2;
+  background: #ffedd3;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,12 +11,12 @@ body > div {
 textarea {
   width: 90%;
   height: 300px;
-  background: #fff3e0;
+  background: #fff9f0;
   margin-top: 14px;
   overflow: hidden;
 }
 
 h2,
 h1 {
-  color: #b71c1c;
+  color: #9e4747;
 }

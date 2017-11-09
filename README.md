@@ -4,6 +4,8 @@
 
 An distributed application that allows for several users to edit the same document at the same time, something similar to Google Docs, but without any coordinating server.
 
+**Check it out [Live Here](https://vigneshm.com/IPFS-CRDT-shared-editing/)**, Open it on few tabs or devices and start typing...
+
 ## IPFS
 
 **IPFS** stands for Interplanetary File System, and is much more than a file system. It’s an entire network stack for the decentralised and peer-to-peer web, allowing you to build truly serverless web applications.
@@ -21,6 +23,7 @@ The project uses **js-ipfs**, which is a Javascript implementation of IPFS that 
 
 A text editor that requires no server but yet, allows several users to edit it in a collaborative fashion. We can call it “google docs without google for plain text”.
 
+[Project Live Here.](https://vigneshm.com/IPFS-CRDT-shared-editing/)
 
 ## Set up
 
@@ -38,13 +41,13 @@ $ yarn install
 
 ### Build
 
-```
+```sh
 $ yarn build
 ```
 
 ### Run
 
-```
+```sh
 $ yarn start
 ```
 
