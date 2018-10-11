@@ -48152,6 +48152,7 @@ module.exports = (_message) => {
 
 var IPFS = __webpack_require__(285);
 var Yjs = __webpack_require__(752);
+
 __webpack_require__(760)(Yjs);
 __webpack_require__(762)(Yjs);
 __webpack_require__(763)(Yjs);
@@ -124315,6 +124316,7 @@ class PubSubRoom extends EventEmitter {
             from: peerId,
             data: message,
             seqno: seqno,
+            topicIDs: [ this._topic ],
             topicCIDs: [ this._topic ]
           })
           return message

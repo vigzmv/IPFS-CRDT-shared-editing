@@ -1,5 +1,6 @@
 const IPFS = require('ipfs');
 const Yjs = require('yjs');
+
 require('y-memory')(Yjs);
 require('y-array')(Yjs);
 require('y-text')(Yjs);
